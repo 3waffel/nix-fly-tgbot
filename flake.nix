@@ -40,7 +40,6 @@
             })
           ];
         };
-        lib = pkgs.lib;
         naersk-lib = with pkgs;
           naersk.lib.${system}.override {
             cargo = toolchain;
